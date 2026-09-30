@@ -1,0 +1,59 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;width:1200px;height:630px;overflow:hidden}
+  body{font-family:Inter,-apple-system,Helvetica,Arial,sans-serif;color:#1d1d1f;background:#fff;position:relative;-webkit-font-smoothing:antialiased}
+  .band{position:absolute;right:0;top:0;bottom:0;width:440px;background:#f5f5f7}
+  .wrap{position:absolute;inset:0;padding:70px 80px 64px;display:flex;flex-direction:column;justify-content:space-between}
+  .eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:17px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#6e6e73}
+  .eyebrow i{width:10px;height:10px;border-radius:50%;background:#0b7a5a}
+  h1{margin:22px 0 0;font-weight:700;font-size:92px;line-height:.98;letter-spacing:-.045em;max-width:660px}
+  .tag{margin-top:22px;font-size:32px;font-weight:500;letter-spacing:-.025em;line-height:1.2;max-width:640px;color:#3d3d42}
+  .tag em{font-style:normal;color:#0b7a5a}
+  .row{display:flex;justify-content:space-between;align-items:flex-end}
+  .stats{display:flex;gap:44px}
+  .stat b{display:block;font-size:34px;font-weight:700;letter-spacing:-.035em}
+  .stat b span{color:#0b7a5a;font-size:.6em;font-weight:600}
+  .stat small{display:block;margin-top:4px;font-size:15px;color:#6e6e73}
+  .card{position:absolute;right:80px;top:96px;width:300px;padding:24px;border-radius:24px;background:#fff;border:1px solid rgba(0,0,0,.08);box-shadow:0 2px 6px rgba(0,0,0,.05),0 28px 70px -28px rgba(0,0,0,.28)}
+  .card .k{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#6e6e73}
+  .card .t{margin-top:6px;font-size:15px;font-weight:600;letter-spacing:-.01em}
+  .rows{margin-top:16px;display:grid;gap:9px}
+  .rows div{display:grid;grid-template-columns:118px 1fr 22px;gap:10px;align-items:center;font-size:11px;color:#3d3d42}
+  .rows i{display:block;height:12px;border-radius:4px;background:#1f9070}
+  .rows div:nth-child(n+4) i{background:#5fbf9a}
+  .rows b{font-size:11px;text-align:right;color:#1d1d1f}
+  .foot{margin-top:18px;padding-top:14px;border-top:1px solid rgba(0,0,0,.08);display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .foot b{font-size:24px;font-weight:700;letter-spacing:-.03em}
+  .foot span{font-size:11px;color:#6e6e73;line-height:1.4;max-width:140px}
+  .firms{position:absolute;right:80px;bottom:64px;text-align:right;font-size:14px;color:#6e6e73;line-height:1.7}
+  .firms b{color:#1d1d1f;font-weight:700;letter-spacing:-.02em;font-size:20px}
+</style></head><body>
+<div class="band"></div>
+<div class="wrap">
+  <div><span class="eyebrow"><i></i>Sustainability consultant · Deputy Manager, Deloitte India</span>
+    <h1>Muskan Gupta</h1>
+    <div class="tag">Turning climate risk and disclosure into <em>decisions boards can fund.</em></div></div>
+  <div class="row">
+    <div class="stats">
+      <div class="stat"><b><span>₹</span>200Cr+</b><small>capital allocation informed</small></div>
+      <div class="stat"><b>2.3M <span>tCO₂e</span></b><small>emissions standardised</small></div>
+      <div class="stat"><b>17</b><small>essays on climate risk &amp; disclosure</small></div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="k">Technical toolkit</div>
+  <div class="t">Used across 18 Big 4 engagements</div>
+  <div class="rows">
+    <div><span>Advanced Excel · VBA</span><i style="width:100%"></i><b>14</b></div>
+    <div><span>Word</span><i style="width:64%"></i><b>9</b></div>
+    <div><span>PowerPoint</span><i style="width:57%"></i><b>8</b></div>
+    <div><span>Workflow automation</span><i style="width:29%"></i><b>4</b></div>
+    <div><span>Power Query · NLP scanning</span><i style="width:14%"></i><b>2</b></div>
+    <div><span>Python · Power BI · QGIS</span><i style="width:7%"></i><b>1</b></div>
+  </div>
+  <div class="foot"><b>12 tools</b><span>Excel, Power BI, Python, PowerPoint, Word and the automation behind them</span></div>
+</div>
+<div class="firms"><b>Deloitte.</b> &nbsp; <b>KPMG</b> &nbsp; <b>pwc</b><br>Climate risk · IFRS S2 · CSRD · Net zero</div>
+</body></html>
